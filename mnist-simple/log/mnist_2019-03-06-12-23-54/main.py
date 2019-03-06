@@ -69,7 +69,7 @@ callbacks.append(CSVLogger(MODEL_TRAIN_LOG_CSV_PATH))
 history = model.fit(X_train, 
               y_train, 
               batch_size=200, 
-              epochs=30,
+              epochs=1,
               verbose=1,
               callbacks=callbacks,
               validation_data=(X_test, y_test))
