@@ -1,7 +1,7 @@
 # MNISTのサンプルコード
 
 ### Language
-Python 3.5.2
+* Python 3.5.2
 
 ### library
 * Keras (2.2.4)
